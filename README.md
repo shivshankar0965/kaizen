@@ -11,4 +11,4 @@
  --Akshay Rajput
  --Biswadip Roy
  --Pardeep
- --Tirth Coudhari
+ --Tirth Chaudhari
