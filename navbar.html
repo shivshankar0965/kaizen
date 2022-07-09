@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .line {
+            width: 100%;
+            border: 1px solid  rgb(2, 2, 55);
+            background-color:  rgb(2, 2, 55);
+            margin: -8px auto 3px auto;
+        }
+
+        #container {
+            font-family: Arial, Helvetica, sans-serif;
+            width: 100%;
+            /* height: 60px; */
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(2, 2, 55);
+            color: white;
+            border-radius: 10px;
+            font-size: 9px;
+            padding: 10px 0px;
+        }
+
+        #container>div {
+
+            display: flex;
+            width: fit-content;
+            /* padding: 10px; */
+            box-sizing: border-box;
+            justify-content: center;
+            align-items: center;
+            margin: 0px 10px;
+
+        }
+        #right{
+            display: flex;
+            column-gap:15px;
+            justify-content: center;
+            align-items: center;
+        }
+        #right>div{
+        
+            padding: 3px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="line"></div>
+    <div id="container">
+        <div>Reebok</div>
+        <div id="right">
+            <div>Men</div>
+            <div>Women</div>
+            <div>Login</div>
+            <div>Signup</div>
+        </div>
+    </div>
+
+</body>
+
+</html>
