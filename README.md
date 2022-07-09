@@ -1,0 +1,14 @@
+# kaizen
+-- This repository is created for the collaboration of five team members to learn how to collaborate in git.
+-- Our team name is Kaizen
+-- Tech stacks used
+  --HTML
+  --CSS
+-- IDE
+  --VS Code
+----Team members---
+ --Shiv Shankar
+ --Akshay Rajput
+ --Biswadip Roy
+ --Pardeep
+ --Tirth Coudhari
