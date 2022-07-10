@@ -7,22 +7,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body>div{background-color: white;}
+        body {
+            width: 100%;
+            background-color: #663ac5;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        
+        body>div>div {
+            background-color: rgb(255, 255, 255);
+            margin: auto;
+            width: 30%;
+            margin-top: 100px;
+            border-radius:20px
+        }
+        
+        .login {
+            text-align: center;
+            padding-top: 50px;
+            font-size: 30px;
+            
+        }
+        input{
+            border: none;
+            border-bottom: 3px solid rgb(177, 171, 171);
+            width: 100%;
+            font-size: 16px;
+            display: inline-block;
+        }
+        .input{
+            width: 80%;
+            margin: auto;
+            margin-top: 50px;
+            color: rgb(177, 171, 171);
+        }
+        button{
+            width: 100%;
+            background-color: #6f31e3;
+            font-size: 15px;
+            padding: 10px;
+            color: white;
+            border-radius: 10px;
+            border-style: none;
+        }
+        .p{
+            text-align: center;
+            margin: auto;
+            margin-top: 50px;
+            padding-bottom: 50px;
+            width: 80%;
+        }
+        span{
+            color: #6f31e3 ;
+        }
+
+      
+
     </style>
 </head>
 
 <body>
     <div>
+
         <div>
-            <div>LOGIN </div>
-            <div><input type="text" placeholder="Username">
-                <input type="text" placeholder="Password">
+
+            <div class="login">LOGIN </div>
+
+            <div class="input">
+                <input type="text" placeholder="Email"><br><br><br><br>
+                <input type="text" placeholder="Password"><br><br><br><br>
                 <button>Login</button>
             </div>
-            <div>
-                <p>Forgot <span>Password</span>? </p>
-                <p>Don't have an account?<span>sign up</span></p>
+
+            <div class="p">
+                <p>Forgot <span>Password</span> ? </p>
+                <p>Don't have an account? <span>sign up</span></p>
             </div>
+
         </div>
 
     </div>
